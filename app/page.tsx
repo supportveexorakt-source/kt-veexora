@@ -570,7 +570,7 @@ export default function HomePage() {
                   Privacy
                 </a>
 
-                <a href="#" className="block hover:text-white">
+                <a href="/contact" className="block hover:text-white">
                   Contact
                 </a>
               </div>
