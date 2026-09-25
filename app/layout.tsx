@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   title: "KT VEEXORA — Everything You Need. One Place.",
   description:
     "KT VEEXORA is an all-in-one online utility platform for image, PDF, document and digital tools. Resize, compress, convert, edit and manage files easily.",
+
+    verification: {
+  google: "kD8-qw0xaMlkFy1vjvfQ5QRtJsuLVatONUKbMx6mhWs",
+},
   keywords: [
     "KT VEEXORA",
     "Veexora",
