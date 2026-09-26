@@ -84,21 +84,13 @@ export default function HomePage() {
       <header className="sticky top-0 z-50 border-b border-gray-100 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
 
-          <Link href="/" className="flex items-center gap-2">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#2563EB] via-[#7C3AED] to-[#06B6D4] text-xl font-black text-white">
-              V
-            </div>
-
-            <div>
-              <div className="text-lg font-extrabold tracking-tight">
-                KT VEEXORA
-              </div>
-
-              <div className="hidden text-[10px] font-medium text-gray-500 sm:block">
-                Everything You Need. One Place.
-              </div>
-            </div>
-          </Link>
+<Link href="/" className="flex items-center">
+  <img
+    src="/logo.png"
+    alt="KT VEEXORA"
+    className="w-40 h-auto object-contain"
+  />
+</Link>
 
           <nav className="hidden items-center gap-7 text-sm font-medium text-gray-600 lg:flex">
             <Link href="/tools" className="hover:text-[#2563EB]">
@@ -519,15 +511,17 @@ export default function HomePage() {
 
             <div className="md:col-span-2">
 
-              <div className="flex items-center gap-2 text-white">
-                <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[#2563EB] via-[#7C3AED] to-[#06B6D4] font-black">
-                  V
-                </div>
+              <div className="flex items-center gap-3 text-white">
+  <img
+    src="/logo.png"
+    alt="KT VEEXORA"
+    className="h-12 w-auto object-contain"
+  />
 
-                <span className="text-lg font-extrabold">
-                  KT VEEXORA
-                </span>
-              </div>
+  <span className="text-lg font-extrabold">
+    KT VEEXORA
+  </span>
+</div>
 
               <p className="mt-4 max-w-md text-sm leading-6 text-gray-400">
                 Everything You Need. One Place.
@@ -579,6 +573,7 @@ export default function HomePage() {
           </div>
 
           <div className="mt-10 border-t border-white/10 pt-6 text-center text-xs text-gray-500">
+            
             © 2026 KT VEEXORA. All rights reserved.
           </div>
 

@@ -40,6 +40,11 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  icons: {
+  icon: "/logo.jpeg",
+  shortcut: "/logo.jpeg",
+  apple: "/logo.jpeg",
+},
 };
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
